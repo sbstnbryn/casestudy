@@ -1,6 +1,6 @@
 ## Case Study
 
-This project is completed using R, RStudio's tools, and other third party libraries.
+As a financial service company, credit scoring is a crucial indicator to decide which people eligible to get a credit or loan from it. By predicting the probability of a user tends to pay their loan or not it helps to determine the credit scoring for the user. 
 
 ### Variable Explanation
 
@@ -58,4 +58,6 @@ Because of limited time and computational power, I haven't explore more about th
  * XGBoost
  * Neural Network
   
-  
+### Tools
+
+This project is completed using R, RStudio's tools, and other third party libraries.
