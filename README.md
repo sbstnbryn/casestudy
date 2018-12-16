@@ -18,7 +18,7 @@ NumberOfDependents:                 	Number of dependents in family excluding th
 
 ### Components
 
-* Explore Data ('tidyverse', 'naniar' package)
+* Explore Data ('dplyr', 'naniar' package)
   * Data Balance
   * Outliers
   * Data Correlation
@@ -30,7 +30,7 @@ NumberOfDependents:                 	Number of dependents in family excluding th
   * Missing values from Monthly Income variable and its correlation to Number Of Dependents variable
   * Debt Ratio of people who did and did not disclose their salary
 
-* Clean Data ('tidyverse')
+* Clean Data ('dplyr' package)
   * Because there are missing data, there are several options to handle it
     * Keep N/A values
     * Delete N/A rows
@@ -39,5 +39,16 @@ NumberOfDependents:                 	Number of dependents in family excluding th
 * Predict Data
   * Naive Bayes ('e1071' package)
   * Random Forest ('randomForest' package)
+  
+### Future Improvements
+
+Because of limited time and computational power, I haven't explore more about this data. There are several improvements that can be done.
+
+* Feature Engineer
+* Using 'mice' package to impute missing values
+* Using other classification methods such as
+ * SVM
+ * XGBoost
+ * Neural Network
   
   
