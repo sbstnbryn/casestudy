@@ -36,9 +36,16 @@ This project is completed using R, RStudio's tools, and other third party librar
     * Delete N/A rows
     * Impute N/A values
 
-* Predict Data
-  * Naive Bayes ('e1071' package)
-  * Random Forest ('randomForest' package)
+* Prediction
+  * Split into train and test sets
+  * Building the model
+    * Naive Bayes ('e1071' package)
+    * Random Forest ('randomForest' package)
+  * Prediction
+    * ROC Curve 
+    * AUC
+  * Variable Importance
+
   
 ### Future Improvements
 
